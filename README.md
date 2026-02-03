@@ -58,4 +58,7 @@ output "instance_id" {
   description = "ID da instância criada"
   value       = aws_instance.exemplo.id
 }
-
+```
+## dev.tfvars
+```hcl
+resource_name = "MinhaEC2"
