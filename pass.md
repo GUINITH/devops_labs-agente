@@ -63,3 +63,19 @@ Repita para `variables.tf`, `main.tf`, `output.tf`, `terraform.tfvars`.
 - O repositório fica pronto para rodar `terraform init && terraform apply`.
 
 ---
+# 🚀 Deploy de Arquivos Terraform via Copilot Studio + Power Automate + GitHub API
+
+Este projeto mostra como automatizar o envio de arquivos Terraform (`provider.tf`, `variables.tf`, `main.tf`, `output.tf`, `terraform.tfvars`) para um repositório GitHub usando **Copilot Studio** e **Power Automate**, sem precisar rodar `git` manualmente.
+
+---
+
+## 🔑 1. Criar Personal Access Token (PAT) no GitHub
+1. Vá em **Settings → Developer settings → Personal access tokens → Tokens (classic)**.  
+2. Clique em **Generate new token**.  
+3. Marque permissões: `repo` (para ler e escrever nos repositórios).  
+4. Copie o token gerado (será usado no fluxo).
+
+---
+
+## ⚙️ 2. Criar Repositório via API do GitHub
+Endpoint:
