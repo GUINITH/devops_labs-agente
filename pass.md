@@ -76,9 +76,18 @@ Este projeto mostra como automatizar o envio de arquivos Terraform (`provider.tf
 4. Copie o token gerado (será usado no fluxo).
 
 ---
-
+ ```
 ## ⚙️ 2. Criar Repositório via API do GitHub
 Endpoint:
+
+
+{
+  "name": "terraform-ec2",
+  "description": "Repositório para provisionamento de EC2 com Terraform",
+  "private": true
+}
+
+
 
  ```
 {
