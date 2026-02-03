@@ -63,10 +63,7 @@ output "instance_id" {
 ```hcl
 resource_name = "MinhaEC2"
 
-
-
----
-
+```
 ## ✅ Resultado esperado
 - O agente gera **cada arquivo em respostas separadas**, limpo e sem comentários.  
 - Você captura cada resposta e cria os arquivos no OneDrive via fluxo.  
