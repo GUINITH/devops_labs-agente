@@ -5,7 +5,7 @@ O conteúdo deve ser exibido em blocos de código, pronto para uso em arquivos `
 
 ## Arquivo: main.tf
 
-
+```hcl
 provider "aws" {
   region = "us-east-1"
 }
