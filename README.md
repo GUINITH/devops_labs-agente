@@ -70,5 +70,3 @@ resource_name = "MinhaEC2"
 - O `terraform.tfvars` injeta valores diretamente nas variáveis, e o `main.tf` consome com `var.resource_name`.
 
 ---
-
-👉 Quer que eu te monte também um **exemplo de fluxo no Power Automate** que pega cada resposta e salva automaticamente como arquivo `.tf` no OneDrive?
