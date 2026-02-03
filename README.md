@@ -62,3 +62,16 @@ output "instance_id" {
 ## dev.tfvars
 ```hcl
 resource_name = "MinhaEC2"
+
+
+
+---
+
+## ✅ Resultado esperado
+- O agente gera **cada arquivo em respostas separadas**, limpo e sem comentários.  
+- Você captura cada resposta e cria os arquivos no OneDrive via fluxo.  
+- O `terraform.tfvars` injeta valores diretamente nas variáveis, e o `main.tf` consome com `var.resource_name`.
+
+---
+
+👉 Quer que eu te monte também um **exemplo de fluxo no Power Automate** que pega cada resposta e salva automaticamente como arquivo `.tf` no OneDrive?
