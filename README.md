@@ -19,13 +19,16 @@ resource "aws_instance" "exemplo" {
     Name = "MinhaEC2"
   }
 }
-
+```
 ## provider.tf
 ```hcl
 provider "aws" {
   region = var.region
 }
+```
 
+## variable.tf
+```hcl
 variable "region" {
   description = "Região da AWS"
   type        = string
@@ -48,7 +51,7 @@ variable "resource_name" {
   description = "Nome da instância EC2"
   type        = string
 }
-
+```
 ## output.tf
 ```hcl
 output "instance_id" {
